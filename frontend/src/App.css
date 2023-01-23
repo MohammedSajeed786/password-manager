@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+   
+   
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ /* #card{
+   c
+  box-shadow: 10px 5px ;
+  color: white;
+  background-color: #15314b;
+  c
+  color:white,
+
+ }
+  #passwords{
+  background-color: #02203c;
+  position: absolute;
+  width: 100%;
+  padding: 1rem 10rem 1rem 10rem;
+   
+ } 
+  #card{
+   margin:1rem 1rem 1rem 0rem;
+   box-shadow: 5px 7px 5px #072847;
+   c
+   border: 5px solid #152d44;
+ } 
+ */
+
+ #password-card{
+  border: 2px solid rgb(39, 165, 112);
+  color:rgb(39, 165, 112);
+  /* transition: box-shadow .3s; */
+   
+ }
+ #password-card:hover{
+   transition: 0.5s ease;
+    
+   box-shadow: 5px 5px 10px 5px rgb(0,0,0,0.2);
+   /* box-shadow: 5px 5px 25px rgba(0,0,0,.2); */
+
+   color:white;
+   background-color: rgb(39, 165, 112);;
+ }
+ .row{
+   display: flex;
+   align-items:center;
+   margin-left: 5vw;
+   width: 100%;
+} 
+.about-card { 
+    
+  background-color: white;
+  margin: 2em;
+  padding: 32px 24px;
+  border-radius: 8px;
+  border:1px solid rgb(39, 165, 112);
+  /* height :25vh; */
+ }   
+ .about-card:hover{
+    background-color: rgb(39, 165, 112);
+    color:azure;
+    
+ }
+ @media (max-width:600px){
+  .row{
+    margin-left:0em !important;
+    margin-right: 0.5em !important;
+  }
+}
+
+    

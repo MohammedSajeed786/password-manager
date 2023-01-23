@@ -1,0 +1,147 @@
+.nbody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ncard{
+    background-color: #FFFFFF;
+    width:25em;
+    height: 39em;
+    border-radius: 10px;
+    box-shadow: 0 3px 20px 0px rgb(0 0 0 / 10%);
+     
+}
+.nheader{
+    text-align: center;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    padding:3em;
+    background-color: #57B846;
+    color:white;
+    /* font-size: 1.n5em; */
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+.ndata{
+    display: block;
+    margin: 1em 1em 0em 3em;
+    border-radius: 23px;
+    border: none;
+    background-color: #EBEBEB;
+    width:17em;
+    /* 20em; */
+    height: 3em;
+    padding:1em
+}
+.ndata:focus{
+    width: 20em;
+    transition: 1s;
+}
+.ndata:enabled{
+    border: none;
+    outline: none;
+}
+.nsubmit{
+    
+    margin: 1em 1em 0em 3em;
+    border-radius: 23px;
+    border: none;
+    background-color:#57B846;
+    width:17em;
+    height: 3em;
+    /* padding:1em; */
+    text-align: center;
+    color:#FFFFFF
+}
+.nsubmit:hover{
+    background-color: black;
+}
+.nfooter{
+margin: 1em 1em 0em 7em;
+}
+.nsignin{
+    text-decoration: none;
+    margin-left: 3em;
+    color:#57B846;
+    font-weight: bold;
+}
+.nsignin:hover{
+    color:black;
+}
+.neye{
+  display: inline-block;
+  margin: 0.7em 1em 0em 7em;
+  font-size: 10px;
+  color: #57B846;
+}
+.nhide{
+    display: inline-block;
+    color: #57B846;
+}
+
+
+@media (max-width:600px){
+    .ncard{
+        width:20em;
+    } 
+    .ndata{
+        width: 14em;
+        margin-left: 1em;
+    }
+    .ndata:focus{
+        width:17em;
+    }
+    .neye{
+        margin-left: 3em;
+    }
+    .nsubmit{
+        margin-left: 1em;
+    }
+    .nfooter{
+        margin-left: 5em;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

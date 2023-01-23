@@ -1,0 +1,61 @@
+.navbar {
+  background-color: white;
+  box-shadow: 0 3px 12px 6px rgb(0 0 0 / 10%);
+  border-radius: 1.5em;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.title {
+  display: inline-block;
+  margin: 0em 1em 0em 1em;
+  color: rgb(39, 165, 112);
+  font-size: 30px;
+  
+}
+nav li {
+  /* display: inline-block; */
+
+  /* margin-top: 1.5em; */
+  margin-left: 2em ;
+  padding: 5px;
+  list-style: none;
+}
+.routes {
+  letter-spacing: 1px;
+  color: rgb(39, 165, 112);
+  text-decoration: none;
+  font-weight: 10px;
+  font-size: large;
+}
+.routes:hover {
+  font-weight: bold;
+
+  border-bottom: 3px solid rgb(39, 165, 112);
+  color: rgb(39, 165, 112);
+  padding-bottom: 5px;
+  transition: 0.2s ease;
+}
+.routes.active {
+  font-weight: bold;
+}
+.logout {
+  /* margin-top: 1rem; */
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid rgb(39, 165, 112);
+  background-color: white;
+
+  padding: 0.5em;
+  text-align: center;
+  color: rgb(39, 165, 112);
+}
+.logout:hover {
+  background-color: rgb(39, 165, 112);
+  color: white;
+  transition: 0.3s ease;
+}
